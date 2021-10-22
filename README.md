@@ -1,3 +1,8 @@
+This is a demo done in class to create the below functionality. 
+
+STUDENTS: notice that some of the designated routes in the below readme are different than in the original project to follow the proper REST patern.
+
+
 # Unit 12 Mini-Project: Movie Database
 
 In this mini-project, you will build Rest API routes for creating, retrieving, and deleting movies from a MySQL database.
@@ -20,13 +25,17 @@ In this mini-project, you will build Rest API routes for creating, retrieving, a
 
 * It's done when `movie_db` has been seeded with data.
 
-* It's done when the `/api/movies` route renders a list of all movies.
+* It's done when a GET request to the `/api/movies` route renders a list of all movies.
 
 * It's done when a POST request to the `/api/movies` route successfully adds a movie when tested using Insomnia.
 
-* It's done when the `/api/update-review` route successfully updates a movie when tested using Insomnia.
+* It's done when a PUT request to the `/api/movies` route successfully updates a movie when tested using Insomnia.
 
-* It's done when the `/api/movies/:id` route deletes a route when tested using Insomnia.
+* It's done when a DELETE request to the `/api/movies/:id` route deletes a route when tested using Insomnia.
+
+* It's done when a GET request to the `/api/reviews` route renders a list of all reviews.
+
+* It's done when a DELETE request to the `/api/review/:id` route deletes a review when tested using Insomnia.
 
 ---
 
